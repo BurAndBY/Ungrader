@@ -38,6 +38,9 @@ for directory in sub_directories:
         if "=>" in file_contents: #Contains out var
             print(" Files with => ", f.name + "; \n") #Type file name
             print("Replace '=>' with '=' ")
+       if "contactCount" in file_contents: #Contains out var
+            print(" Files with => ", f.name + "; \n") #Type file name
+            print("Replace 'contactCount' with 'contacts.count' ")
 answer = input("Close app? yes or no") #Ask should we close the app
 if answer in ('yes', 'no'): #Yes is an only option. Accept your faith.
     exit() #Closing...
