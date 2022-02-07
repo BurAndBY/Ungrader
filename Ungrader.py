@@ -31,9 +31,13 @@ for directory in sub_directories:
         if "ref " in file_contents: #Contains ref
             print("Files with ref:", f.name + "; \n") #Type file name
             print("Replace 'ref ' with '' ")
+         
         if "out var " in file_contents: #Contains out var
             print(" Files with out var ", f.name + "; \n") #Type file name
             print("Replace 'out var ' with '' ")
+        if "=>" in file_contents: #Contains out var
+            print(" Files with out var ", f.name + "; \n") #Type file name
+            print("Replace '=>' with '=' ")
 answer = input("Close app? yes or no") #Ask should we close the app
 if answer in ('yes', 'no'): #Yes is an only option. Accept your faith.
     exit() #Closing...
