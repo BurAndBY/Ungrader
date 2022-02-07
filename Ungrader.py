@@ -36,7 +36,7 @@ for directory in sub_directories:
             print(" Files with out var ", f.name + "; \n") #Type file name
             print("Replace 'out var ' with '' ")
         if "=>" in file_contents: #Contains out var
-            print(" Files with out var ", f.name + "; \n") #Type file name
+            print(" Files with => ", f.name + "; \n") #Type file name
             print("Replace '=>' with '=' ")
 answer = input("Close app? yes or no") #Ask should we close the app
 if answer in ('yes', 'no'): #Yes is an only option. Accept your faith.
