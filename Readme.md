@@ -3,7 +3,7 @@ Shows what CSharp files contains code made for newer C# versions. W.I.P and not 
 ## License
 MIT. 
 ## Requirements
-Python 3.9 and a brain.
+Python 3.9 (older if you use Windows 7 and lower) and a brain.
 ## Why should I use it?
 If you don't know about C# version difference or overall C#.
 ## Building
