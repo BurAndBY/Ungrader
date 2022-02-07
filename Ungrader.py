@@ -35,10 +35,10 @@ for directory in sub_directories:
         if "out var " in file_contents: #Contains out var
             print(" Files with out var ", f.name + "; \n") #Type file name
             print("Replace 'out var ' with '' ")
-        if "=>" in file_contents: #Contains out var
+        if "=>" in file_contents: #Contains =>
             print(" Files with => ", f.name + "; \n") #Type file name
             print("Replace '=>' with '=' ")
-       if "contactCount" in file_contents: #Contains out var
+       if "contactCount" in file_contents: #Contains contactCount
             print(" Files with => ", f.name + "; \n") #Type file name
             print("Replace 'contactCount' with 'contacts.count' ")
 answer = input("Close app? yes or no") #Ask should we close the app
